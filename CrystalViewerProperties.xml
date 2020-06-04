@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="CrystalViewer">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Group>
+          <Name>Config</Name>
+          <Childs>
+            <Prop>
+              <Id>ToolBar</Id>
+              <Name>ToolBar</Name>
+              <Type>Boolean</Type>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>StatusBar</Id>
+              <Name>StatusBar</Name>
+              <Type>Boolean</Type>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>Responsive</Id>
+              <Name>Responsive</Name>
+              <Type>Boolean</Type>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>Width</Id>
+              <Name>Width</Name>
+              <Type>Text</Type>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>Height</Id>
+              <Name>Height</Name>
+              <Type>Text</Type>
+              <Metadata />
+            </Prop>
+            <Prop>
+              <Id>WebConfig</Id>
+              <Name>WebConfig</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetWebConfig</Value>
+                <Value name="FlagGetValueMethod">GetWebConfig</Value>
+                <Value name="FlagDataTypeFilter">WebConfig</Value>
+              </Metadata>
+            </Prop>
+          </Childs>
+        </Group>
+        <Group>
+          <Name>Report</Name>
+          <Childs>
+            <Prop>
+              <Id>Data</Id>
+              <Name>Metadata</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetMetadata</Value>
+                <Value name="FlagGetValueMethod">GetMetadata</Value>
+                <Value name="FlagDataTypeFilter">Metadata</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Param</Id>
+              <Name>Param</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetParam</Value>
+                <Value name="FlagGetValueMethod">GetParam</Value>
+                <Value name="FlagDataTypeFilter">Param</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Path</Id>
+              <Name>Path</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetPath</Value>
+                <Value name="FlagGetValueMethod">GetPath</Value>
+                <Value name="FlagDataTypeFilter">Path</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>DataBase</Id>
+              <Name>DataBase</Name>
+              <Type>Combo</Type>
+              <Metadata />
+              <Values>
+                <Value id="MySql" desc="MySql" />
+                <Value id="SqlServer" desc="SqlServer" />
+              </Values>
+            </Prop>
+          </Childs>
+        </Group>
+        <Group>
+          <Name>Conection</Name>
+          <Childs>
+            <Prop>
+              <Id>Conection</Id>
+              <Name>Conection</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetConection</Value>
+                <Value name="FlagGetValueMethod">GetConection</Value>
+                <Value name="FlagDataTypeFilter">Conection</Value>
+              </Metadata>
+            </Prop>
+          </Childs>
+        </Group>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

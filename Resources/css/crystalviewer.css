@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.frame-area {
+  display: block;
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  border: #999999 1px solid;
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+
+.CrystalMessage{	
+  background-color: transparent;
+  border: 1px solid red;
+}
